@@ -20,8 +20,10 @@ b=[4,3,6,8,1]
 new_list=[]
 for valuea in a:
     for valueb in b:
-        if valuea==valueb and :
-            
+        if valuea==valueb:
+          new_list.append(valuea)
+          print(new_list)
+       
 
 
 
